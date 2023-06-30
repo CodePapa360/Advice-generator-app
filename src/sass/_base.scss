@@ -1,0 +1,39 @@
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+$bp-medium: 700px;
+$bp-small: 20em;
+$bp-very-small: 17em;
+
+html {
+  font-size: 16px;
+
+  @media screen and (max-width: $bp-small) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: $bp-very-small) {
+    font-size: 10px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: "Manrope", sans-serif;
+  background-color: var(--dark-blue);
+  color: var(--light-cyan);
+  padding: 1rem;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 1rem;
+}
