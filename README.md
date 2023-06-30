@@ -9,7 +9,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <div align="center">
 
 <!-- Live -->
-<a href="advice-generator-app-codepapa360.netlify.app/">
+<a href="https://advice-generator-app-codepapa360.netlify.app/">
     <img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?style=for-the-badge&logo=live360&labelColor=666666" alt="Live Demo" />
 </a>
 
@@ -39,7 +39,7 @@ This project uses the <a href="https://api.adviceslip.com/">Advice Slip API</a> 
 </p>
 
 <!-- Screenshot -->
-<a align="center" href="advice-generator-app-codepapa360.netlify.app/">
+<a align="center" href="https://advice-generator-app-codepapa360.netlify.app/">
 
 ![Screenshot](./screenshots/Advice-generator-app-screenshot-codepapa360.png)
 
