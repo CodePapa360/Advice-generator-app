@@ -35,7 +35,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <div align="center">
 
 <p>
-
+This project uses the <a href="https://api.adviceslip.com/">Advice Slip API</a> to generate random quotes of advice. The project is written in `JavaScript` and uses the `fetch()` API to make requests to the <a href="https://api.adviceslip.com/">Advice Slip API</a>. The app features a smooth transition effect when displaying the advice, creating an engaging user experience.
 </p>
 
 <!-- Screenshot -->
@@ -60,12 +60,14 @@ Users should be able to:
 - Semantic HTML5 markup
 - Mobile-first workflow
 - CSS custom properties
-- CSS Grid
 - JavaScript
 - NPM
 - [Webpack - a module bundler](https://webpack.js.org/)
+- [Advice Slip API](https://api.adviceslip.com/)
 
 ## What I Learned
+
+In the process of developing the Advice Generator App, I expanded my skills and knowledge in various aspects of web development. Working with the Advice Slip API allowed me to gain hands-on experience with integrating third-party APIs into my projects. I deepened my understanding of `asynchronous` JavaScript and utilized the `fetch()` API to efficiently retrieve data from the API. Overall, this project provided an opportunity to sharpen my `JavaScript` skills, API integration capabilities, and UI design techniques, further advancing my expertise in web development.
 
 ## Installation
 
