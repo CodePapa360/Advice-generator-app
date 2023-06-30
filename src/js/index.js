@@ -17,16 +17,19 @@ const apiCall = async function () {
 const caller = async function () {
   spinner.style.display = "block";
   adviceContents.style.display = "none";
+  adviceContents.classList.remove("show-contents");
 
   try {
     const data = await apiCall();
 
-    console.log(data);
-    spinner.style.display = "none";
-    adviceContents.style.display = "block";
-
     idEl.textContent = data.slip.id;
     adviceEl.textContent = `"${data.slip.advice}"`;
+    adviceContents.style.display = "block";
+
+    setTimeout(() => {
+      spinner.style.display = "none";
+      adviceContents.classList.add("show-contents");
+    }, 10);
   } catch (error) {
     console.error(error);
     spinner.style.display = "none";
